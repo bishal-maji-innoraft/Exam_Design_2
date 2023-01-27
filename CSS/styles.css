@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;1,500&display=swap');
+/* css root variables */
+:root {
+    --white: #ffffff;
+    --dark-grey: #7a7a7a;
+    --blue: #280b6b;
+    --black:#000000;
+    --light-grey:#d1d1d1;
+    --fs-base: 18px;
+    --fs-40: 40px;
+    --fs-30:30px;
+  }
+  
+  /* base declaration */
+  body,
+  html,
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: var(--black);
+    font-family: 'Roboto', sans-serif;
+  
+  }
+  body,
+  html {
+    font-size: var(--fs-base);
+    overflow-x: hidden;
+  }
+
+  h1 {
+    font-size: var(--fs-40);
+    color: var(--white);
+    font-weight: 300;
+  }
+  h2{
+    font-size: var(--fs-30);
+  }
+  b{
+    font-weight: 900;
+    color: var(--white);
+  }
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  a,
+  a:hover {
+    text-decoration: none;
+  }
+  p{
+    font-weight: 200;
+    color: var(--dark-grey);
+  }
+  
+  .container {
+        max-width: 1320px;
+        width: 100%;
+        margin: 0 auto;
+        padding:20px 15px;
+    
+    }
+
+  .flex-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .flex-justify-between {
+    justify-content: space-between;
+  }
+  .flex-align-top{
+    align-items: flex-start;
+  }
+  .content {
+    padding: 10px 20px;
+    border: 1px solid var(--light-grey);
+    margin: 20px 0px;
+    min-height: 140px;
+    box-shadow: 1px 3px var(--light-grey);
+  }
+  button {
+    background-color: var(--black);
+    color:var(--white);
+    padding: 10px 20px;
+    border: 0;
+    outline: 0;
+    font-weight: 800;
+  }
+
+  /* nav bar */
+    
+  .nav-bar .nav-menu ul li a {
+    display: inline-block;
+    padding: 20px 20px;
+  }
+ 
+
+/* main */
+.banner {
+    background:  url("../Images/banner_3.png") no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .banner .banner-wrapper {
+    height: 600px;
+    justify-content: flex-start;
+  }
+  .banner .banner-wrapper .banner-wrapper-inner {
+    width: 100%;
+    max-width: 50%;
+  }
+
+  .main-content-wrapper{
+    margin-top: 50px;  
+  }
+  .main-content-left{
+    max-width: 40%;
+    width: 100%;
+   }
+   .main-content-right{
+    max-width: 60%;
+    width: 100%;
+   }
+   .main-content-right-inner{
+    max-width: 50%;
+    margin-left: 20px;
+   
+   } 
+  .main-content-left > img{
+   margin-top: 50px;
+   max-width: 80%;
+   
+   }
+ 
+   .content > h4{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: var(--blue);
+  
+   }
+   
+
+
+
+
+
+
+  
+  
